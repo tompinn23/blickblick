@@ -1,0 +1,5 @@
+rootProject.name = 'blick'
+include 'blacksmith'
+include 'blick'
+
+
