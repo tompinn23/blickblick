@@ -1,11 +1,10 @@
-package blacksmith.eventbus;
+package blacksmith.classloader;
 
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
-import org.checkerframework.checker.units.qual.A;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
@@ -16,7 +15,6 @@ import java.net.URLConnection;
 import java.nio.file.Path;
 import java.security.CodeSource;
 import java.util.*;
-import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.jar.Attributes;
